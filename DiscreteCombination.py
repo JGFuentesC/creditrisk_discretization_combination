@@ -377,7 +377,7 @@ if __name__ == '__main__':
     warnings.filterwarnings('ignore')
     data_path = './data/clean'
     files_list = sorted(os.path.join(data_path, file) for file in os.listdir(data_path))
-    MAX_KFOLDS = 20
+    MAX_KFOLDS = 30
     RANDOM_SEED = 2718281828
     MAX_BINS = 10
     random_state = np.random.RandomState(seed=RANDOM_SEED)
